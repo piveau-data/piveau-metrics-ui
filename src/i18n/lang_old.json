@@ -1,0 +1,279 @@
+{
+    "en":{
+        "message": {
+            "navigation":{
+                "dashboard": "Dashboard",
+                "catalogues": "Portals",
+                "about": "Documentation",
+                "overview": "Overview",
+                "download-report":{
+                    "direct":"",
+                    "second-pdf":"",
+                    "second-xls":"",
+                    "second-ods":""
+                }
+            },
+            "common":{
+            },
+            "dashboard":{
+                "intro":{
+
+                },
+                "overview":{
+                    "headline":"Overview",
+                    "description":"",
+                    "table-title":{
+                        "country": "Country",
+                        "name": "Name",
+                        "rating": "Rating",
+                        "accessibility": "Accessibility",
+                        "machine-readability": "Machine Readability",
+                        "dcat-ap": "DCAT AP Compliance",
+                        "licence-usage": "Licence Usage"
+                    },
+                   "help":{
+
+                   }
+                },
+                "accessibility":{
+                    "headline":"",
+                    "description":"",
+                    "plots":{
+                        "accessibility-of-distributions": "Accessibility of Distributions",
+                        "existing-download-url": "Existing Download URL",
+                        "status-error-code": "Status Error Codes"
+                    },
+                    "help":{
+                        "title":"",
+                        "desc":""
+                    }
+                },
+                "machine-readability":{
+                    "headline":"",
+                    "description":"",
+                    "plots":{
+                        "ratio-of-mr": "Ratio of machine readable datasets",
+                        "mr-formats": "Machine Readable Formats"
+                    },
+                    "help":{
+                        "title":"",
+                        "desc":""
+                    }
+                },
+                "dcat-ap-compliance":{
+                    "headline":"",
+                    "description":"",
+                    "plots":{
+                        "dcat-ap-compliant": "Compliant Datasets",
+                        "dcat-....": "Machine Readable Formats"
+                    },
+                    "help":{
+                        "title":"",
+                        "desc":""
+                    }
+                },
+                "licence-usage":{
+                    "headline":"",
+                    "description":"",
+                    "plots":{
+                        "licence-ratio": "Ratio known to unknown licences" ,
+                        "most-used-licence": "Most used licneces"
+                    },
+                    "help":{
+                        "title":"",
+                        "desc":""
+                    }
+                }
+            }
+            },
+            "catalogue":{
+                "headline":"",
+                "description":"",
+                "table-title":""
+            },
+            "help": {
+                "accessibility": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Accesibilty"
+                },
+                "downloadUrl": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Exisiting Download URL"
+                },
+                "statusErrorCodes": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Status Error Codes"
+                },
+                "ratioMr": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Ratio of machine readable Datasets"
+                },
+                "formatsMr": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Machine Readable Formats"
+                },
+                "dcatCompliance": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Compliant Datasets"
+                },
+                "...": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "..."
+                },
+                "ratioLicence": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Ration known to unkown licences"
+                },
+                "usedLicence": {
+                    "desc": "A dataset must have an AccessURL according to the DCAT-AP specification; a DownloadURL is optional. A distribution is accessible if its AccessURL is accessible and the DownloadURL is either accessible or not set. This is the percentage of distributions that don’t have an accessible accessURL. The accessURL might be set, but the MQA check can still fail due to HTTP errors (404, 500, etc.).",
+                    "title": "Most used licences"
+                }
+
+                 },
+            "catalogues": {
+                "intro": "English ipsum dolorinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. search below.",
+                "search": "search portals",
+                "country": "Country",
+                "name": "Name",
+                "desc": "Description"
+            },
+            "about-metrics": {
+                "headline": "Information about the used Metrics",
+                "intro": "English ipsum dolorinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. search below."
+
+            },
+            "footer": {
+                "fundedBy": "Funded by the European Union",
+                "newsletter": "Newsletter",
+                "newsletterText": "Stay informed on our latest news!",
+                "followUs": "Follow us on",
+                "helpUsImprove": "Help us Improve",
+                "helpUsImproveText": "Your feedback will help us to improve the overall user experience. Any suggestions?",
+                "lastUpdate": "Last update",
+                    "links": {
+                        "newsletter": "Newsletter",
+                        "faq": "FAQ",
+                        "search": "Search",
+                        "contact": "Contact",
+                        "cookies": "Cookies",
+                        "legalNotice": "Legal notice",
+                        "login": "Login"
+            }
+            }
+        }
+    }
+    },
+    "de":{
+        "message": {
+            "navigation":{
+            "dashboard": "Übersicht",
+            "catalogues": "Alle Portale",
+            "about": "Informationen zu den Metriken",
+            "overview": "Übersicht"
+            },
+            "description":{
+                "overview": "de ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "accessibilty": "de ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "machine-readability": "de ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "dcat": "de ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "licence-usage": "de ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et"
+            },
+            "headlines": {
+                "country": "Land",
+                "name": "Name",
+                "rating": "Bewertung",
+                "accessibility": "Accessibility",
+                "machine-readability": "Machine Readability",
+                "dcat-ap": "DCAT AP Compliance",
+                "licence-usage": "Licence Usage"
+            },
+            "plots": {
+                "accessibility-of-distributions": "Accessibility of Distributions",
+                "existing-download-url": "Existing Download URL",
+                "status-error-code": "Status Error Codes",
+                "ratio-of-mr": "Ratio of machine readable datasets",
+                "mr-formats": "Machine Readable Formats",
+                "dcat-ap-compliant": "Compliant Datasets",
+                "dcat-....": "Machine Readable Formats",
+                "licence-ratio": "Ratio known to unknown licences" ,
+                "most-used-licens": "Most used licneces"
+
+            },
+            "information-modals": {
+
+            },
+            "catalogues": {
+                "intro": "de ipsum dolorinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. search below.",
+                "search": "search portals",
+                "country": "Land",
+                "name": "Name",
+                "desc": "Beschreibung"
+
+            },
+            "detail": {
+
+            },
+            "about-metrics": {
+                "headline": "Information about the used Metrics",
+                "intro": "de ipsum dolorinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. search below."
+
+            }
+        }
+    },
+    "fr":{
+        "message": {
+            "navigation":{
+            "dashboard": "Aperçu",
+            "catalogues": "Tout Catalogues",
+            "about": "Plus Information",
+            "overview": "Résumé"
+            },
+            "description":{
+                "overview": "fr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "accessibilty": "fr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "machine-readability": "fr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "dcat": "fr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et",
+                "licence-usage": "fr ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et"
+            },
+            "headlines": {
+                "country": "Country",
+                "name": "Name",
+                "rating": "Rating",
+                "accessibility": "Accessibility",
+                "machine-readability": "Machine Readability",
+                "dcat-ap": "DCAT AP Compliance",
+                "licence-usage": "Licence Usage"
+            },
+            "plots": {
+                "accessibility-of-distributions": "Accessibility of Distributions",
+                "existing-download-url": "Existing Download URL",
+                "status-error-code": "Status Error Codes",
+                "ratio-of-mr": "Ratio of machine readable datasets",
+                "mr-formats": "Machine Readable Formats",
+                "dcat-ap-compliant": "Compliant Datasets",
+                "dcat-....": "Machine Readable Formats",
+                "licence-ratio": "Ratio known to unknown licences" ,
+                "most-used-licens": "Most used licneces"
+
+            },
+            "information-modals": {
+
+            },
+            "catalogues": {
+                "intro": "fr ipsum dolorinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. search below.",
+                "search": "search portals",
+                "country": "Country",
+                "name": "Name",
+                "desc": "Description"
+
+            },
+            "detail": {
+
+            },
+            "about-metrics": {
+                "headline": "Information about the used Metrics",
+                "intro": "fr ipsum dolorinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. search below."
+                }
+            }
+        }
+    }

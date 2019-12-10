@@ -1,0 +1,8 @@
++ i@0.3.6
++ i@0.3.6
++ @fortawesome/free-solid-svg-icons@5.7.2
++ @fortawesome/fontawesome-svg-core@1.2.15
++ @fortawesome/vue-fontawesome@0.1.5
+updated 4 packages and audited 66631 packages in 62.52s
+found 146 vulnerabilities (78 low, 61 moderate, 6 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
