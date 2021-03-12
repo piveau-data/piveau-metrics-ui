@@ -35,7 +35,7 @@
     "html2pdf.js": "^0.9.1",
     "i": "^0.3.6",
     "jquery": "^3.3.1",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "merge-anything": "^2.4.1",
     "mobile-device-detect": "^0.2.3",
     "mongodb": "^3.1.10",
